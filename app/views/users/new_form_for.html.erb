@@ -1,0 +1,11 @@
+<h1>Bienvenue dans la création d'utilisateurs !</h1>
+<%= form_for :user do |f| %>
+
+    <%= f.label :user %><br>
+    <%= f.text_field :title %>
+
+  Username: <%= f.text_field :username %><br />
+  Email:    <%= f.text_field :last_name %><br />
+  Bio:      <%= f.text_area :biography %><br />
+  <%= f.submit %>
+<% end %>
